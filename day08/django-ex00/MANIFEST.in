@@ -1,0 +1,4 @@
+include LICENSE
+include README.rs
+recursive-include ex00/static *
+recursive-include ex00/templates *

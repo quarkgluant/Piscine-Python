@@ -1,0 +1,41 @@
+{% extends "Rush00/layout.html" %}
+
+{% block content %}
+{% load static %}
+<center>MOVIEDEX</center>
+<font style="font-size:5px;">
+
+{%for title,value in dico.items %}
+	<div class ="imgmon {% if title == cursor %} tuning {% endif %}" style="background-image:url('{{value.Poster}}');">
+	</div>
+{% endfor %}
+</font>
+
+<!-- <img src="{% static 'moviedex.jpg' %}" class="moviedex">
+ -->
+
+
+	<div class="cmd">
+		<span>[A] More information - [select] Back to Map</span>
+	</div>
+<!-- <div style="float:left;">
+{{film1.title}}
+</div>
+
+{% if film2 %}
+	<div style="float:left;">
+		{{film2}}
+	</div>
+{% endif %}
+
+
+
+{% if film3 %}
+	<div style="float:left;">
+		{{film3}}
+	</div>
+{% endif %} -->
+
+
+
+{% endblock %}

@@ -1,0 +1,268 @@
+{% extends "base.html" %}
+
+{% block title %}
+Ex01 : Moteur de template.
+{% endblock %}
+
+{% block style %}
+{% load staticfiles %} 
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style2.css' %}" />
+{% endblock %}
+
+{% block content %}
+{% verbatim myblock %}
+<br>
+template :
+<br>
+C'est la vue qui se charge de transmettre l'information de la requête au template, puis de retourner le HTML généré au client.
+<br>
+
+<br>
+Les conditions : {% if %}
+<br>
+Tout comme en Python, il est possible d'exécuter des conditions dans votre template selon la valeur des variables passées au template :
+<br>
+
+<br>
+Bonjour
+<br>
+{% if sexe == "Femme" %}
+<br>
+   Madame
+<br>
+{% else %}
+<br>
+   Monsieur
+<br>
+{% endif %} !
+<br>
+
+<br>
+Ici, en fonction du contenu de la variable sexe, l'utilisateur ne verra pas le même texte à l'écran.
+<br>
+Ce template est similaire au code HTML généré par la vue suivante :
+<br>
+
+<br>
+def tpl(request):
+<br>
+    sexe = "Femme"
+<br>
+    html = "Bonjour "
+<br>
+    if sexe == "Femme":
+<br>
+        html += "Madame"
+<br>
+    else:
+<br>
+        html += "Monsieur"
+<br>
+    html += " !"
+<br>
+    return HttpResponse(html)
+<br>
+
+<br>
+La séparation entre vue et template simplifie grandement les choses, et permet une plus grande lisibilité que lorsque le code HTML est écrit directement dans la vue !
+<br>
+
+<br>
+Il est également possible d'utiliser les structures if, elif, else de la même façon :
+<br>
+
+<br>
+{% if age > 25 %}
+<br>
+    Bienvenue Monsieur, passez un excellent moment dans nos locaux.
+<br>
+{% elif age > 16 %}
+<br>
+    Vas-y, tu peux passer.
+<br>
+{% else %}
+<br>
+    Tu ne peux pas rentrer petit, tu es trop jeune !
+<br>
+{% endif %}
+<br>
+
+<br>
+
+<br>
+for:
+<br>
+Tout comme les conditions, le moteur de templates de Django permet l'utilisation de la boucle for, similaire à celle de Python. Admettons que nous possédions dans notre vue un tableau de couleurs définies en Python :
+<br>
+couleurs = ['rouge', 'orange', 'jaune', 'vert', 'bleu', 'indigo', 'violet']
+<br>
+Nous décidons dès lors d'afficher cette liste dans notre template grâce à la syntaxe {% for %} suivante :
+<br>
+Les couleurs de l'arc-en-ciel sont :
+<br>
+
+<br>
+{% for couleur in couleurs %}
+<br>
+    {{ couleur }}
+<br>
+{% endfor %}
+<br>
+
+<br>
+Avec ce template, le moteur va itérer la liste (cela fonctionne avec n'importe quel autre type itérable), remplacer la variable couleur par l'élément actuel de l'itération et générer le code compris entre {% for %} et {% endfor %} pour chaque élément de la liste. Comme résultat, nous obtenons le code HTML suivant :
+<br>
+
+<br>
+Les couleurs de l'arc-en-ciel sont :
+<br>
+
+<br>
+    rouge
+<br>
+    orange
+<br>
+    jaune
+<br>
+    vert
+<br>
+    bleu
+<br>
+    indigo
+<br>
+    violet
+<br>
+
+<br>
+Il est aussi possible de parcourir un dictionnaire, en passant par la directive {% for cle, valeur in dictionnaire.items %} :
+<br>
+
+<br>
+couleurs = {'FF0000':'rouge',
+<br>
+            'ED7F10':'orange',
+<br>
+            'FFFF00':'jaune',
+<br>
+            '00FF00':'vert',
+<br>
+            '0000FF':'bleu',
+<br>
+            '4B0082':'indigo',
+<br>
+            '660099':'violet'}
+<br>
+Les couleurs de l'arc-en-ciel sont :
+<br>
+
+<br>
+
+<br>
+{% for code, nom in couleurs.items %}
+<br>
+   style="color:#{{ code }}">{{ nom }}
+<br>
+{% endfor %}
+<br>
+
+<br>
+Ce qui nous donne le HTML suivant :
+<br>
+
+<br>
+
+<br>
+   style="color:#ED7F10">orange
+<br>
+   style="color:#4B0082">indigo
+<br>
+   style="color:#0000FF">bleu
+<br>
+   style="color:#FFFF00">jaune
+<br>
+   style="color:#660099">violet
+<br>
+   style="color:#FF0000">rouge
+<br>
+   style="color:#00FF00">vert
+<br>
+
+<br>
+Vous pouvez aussi réaliser n'importe quelle opération classique avec la variable générée par la boucle for (ici couleur) : une condition, utiliser une autre boucle, l'afficher, etc.
+<br>
+
+<br>
+
+<br>
+block:
+<br>
+Sur la quasi-totalité des sites web, une page est toujours composée de la même façon : un haut de page, un menu et un pied de page. Si vous copiez-collez le code de vos menus dans tous vos templates et qu'un jour vous souhaitez modifier un élément de votre menu, il vous faudra modifier tous vos templates ! Heureusement, le tag {% block %} nous permet d'éviter cette situation épineuse. En effet, il est possible de déclarer des blocs, qui seront définis dans un autre template, et réutilisables dans le template actuel. Dès lors, nous pouvons créer un fichier, appelé usuellement base.html, qui va définir la structure globale de la page, autrement dit son squelette.
+<br>
+
+<br>
+Tout d'abord ce fichier base.html , nous allons l'enregistrer dans le dossier templates/ du projet et non dans l'application. Souvenez-vous : tout ce qui est relatif au projet va dans un des dossiers de la liste TEMPLATE_DIRS . Pour ce cours c'est templates/. Maintenant, nous allons appelez ce fichier dans chacun des templates de notre blog.
+<br>
+
+<br>
+Pour ce faire, nous utilisons le tag {% extends %} (pour ceux qui ont déjà fait de la programmation objet, cela doit vous dire quelque chose ; cette méthode peut aussi être assimilée à include en PHP). Nous parlons alors d'héritage de templates. Nous prenons la base que nous surchargeons, afin d'obtenir un résultat dérivé :
+<br>
+
+<br>
+{% extends "base.html" %}
+<br>
+{% block title %}Ma page d'accueil{% endblock %}
+<br>
+{% block content %}
+<br>
+
+<br>
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus
+<br>
+       massa non tortor. Vestibulum diam diam, posuere in viverra in,
+<br>
+       ullamcorper et libero. Donec eget libero quis risus congue imperdiet ac
+<br>
+       id lectus. Nam euismod cursus arcu, et consequat libero ullamcorper sit
+<br>
+       amet.
+<br>
+
+<br>
+{% endblock %}
+<br>
+Dans cet exemple, nous avons défini deux blocs, title et content. Le tag extends va aller chercher dans le template donné en argument, ici base.html, et remplacer les blocs vides de ce dernier par les blocs de même nom définis dans le template appelé par la vue. Ainsi, title et content seront repris du template fils, mais nav sera le bloc nav défini dans base.html. En résumé, regardez la structure représentée dans l'image suivante :
+<br>
+
+<br>
+Fonctionnement du tag {% block %}
+<br>
+Fonctionnement du tag {% block %}
+<br>
+
+<br>
+Affichage d'une variable
+<br>
+
+<br>
+Comme nous l'avons déjà expliqué, la vue transmet au template les données destinées à l'utilisateur. Ces données correspondent à des variables classiques de la vue. Nous pouvons les afficher dans le template grâce à l'expression {{ }} qui prend à l'intérieur des accolades un argument (on pourrait assimiler cette expression à une fonction), le nom de la variable à afficher. Le nom des variables est également limité aux caractères alphanumériques et aux underscores.
+<br>
+
+<br>
+Bonjour {{ pseudo }}, nous sommes le {{ date }}.
+<br>
+Ici, nous considérons que la vue a transmis deux variables au template : pseudo et date. Ceux-ci seront affichés par le moteur de template. Si pseudo vaut « Jean » et date « 28 décembre », le moteur de templates affichera « Bonjour Jean, nous sommes le 28 décembre. ».
+<br>
+
+<br>
+Si jamais la variable n'est pas une chaîne de caractères, le moteur de templates utilisera la méthode __str__ de l'objet pour l'afficher. Par exemple, les listes seront affichés sous la forme ['élément 1', 'élément 2'…], comme si vous demandiez son affichage dans une console Python. Il est possible d'accéder aux attributs d'un objet comme en Python, en les juxtaposant avec un point. Plus tard, nos articles de blog seront représentés par des objets, avec des attributs titre, contenu, etc. Pour y accéder, la syntaxe sera la suivante :
+<br>
+
+<br>
+{# Nous supposons que notre vue a fourni un objet nommé article contenant les attributs titre, auteur et contenu #}
+<br>
+
+<br>
+Si jamais une variable n'existe pas, ou n'a pas été envoyée au template, la valeur qui sera affichée à sa place est celle définie par TEMPLATE_STRING_IF_INVALID dans votre settings.py, qui est une chaîne vide par défaut.
+{% endverbatim myblock %}
+{% endblock %}

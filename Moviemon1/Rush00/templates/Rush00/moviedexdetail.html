@@ -1,0 +1,43 @@
+{% extends "Rush00/layout.html" %}
+
+{% block content %}
+<div class="moviedex">
+	<div class="infos">
+		<div class="monster">
+			<h4>{{detail.Title}}</h4>
+			<table>
+				<tr>
+					<td>Year {{detail.Year}}</td>
+					<td>Genre {{detail.Genre}}</td>
+				</tr>
+				<tr>
+					<td>Director {{detail.Director}}</td>
+					<td>ratings {{detail.imdbRating}}</td>
+					<td>{{detail.Actors}}</td>
+				</tr>
+			</table>
+			<h4>Synopsis</h4> {{detail.Plot}}
+		</div>
+		<div class="poster"><img src="{{detail.Poster}}" />[B] - Back</div>
+
+	</div>
+</div>
+
+{% endblock %}
+
+
+<!-- <div class="poster" style="background-image:url('{{detail.Poster}}');">
+</div>
+<div class="miniaturedetail">
+<div class="detail2">
+	{{detail.Title}}<br/>
+	{{detail.Director}}<br/>
+	{{detail.imdbRating}}<br/>
+	{{detail.Year}}<br/>
+	{{detail.Actors}}<br/>
+	<span>
+	{{detail.Plot}}
+	</span>
+</div>
+</div>
+ -->

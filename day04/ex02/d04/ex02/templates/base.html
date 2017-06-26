@@ -1,0 +1,20 @@
+{% load staticfiles %} 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	{% block title %}
+	{% endblock %}
+	</title>
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'style1.css' %}" />
+	{% block style %}
+	{% endblock %}
+</head>
+<body>
+	{% include "nav.html" %}
+	{% block content %}
+	{% endblock %}
+</body>
+</html>

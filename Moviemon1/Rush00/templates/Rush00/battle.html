@@ -1,0 +1,35 @@
+{% extends "Rush00/layout.html" %}
+
+{% block content %}
+{% load static %}
+<div class="battle">
+	<div>
+		<div class="monster">
+			<!-- <h2><%= $selected[:title]%></h2> -->
+			<h2>{{DicoMovie.Title}}</h2>
+			<h3>Its Strength: {{DicoMovie.imdbRating}}</h3>
+			<h3>&nbsp</h3>
+			<h3>My Strenght: {{Strenght}} </h3>
+			<h3>My Lucky: {{Luck}}%</h3>
+			<span>{% if remarque|length > 0 %}<div class="message"> {{remarque}}</div>{% endif %}</span>
+
+		</div>
+		<div class="poster"><img src="{{DicoMovie.Poster}}" /></div>
+		<div class="cmd">
+			<span>[A] Launch ball!</span>
+			<span>[B] Back to Map</span>
+		</div>
+	</div>
+	<img src="{% static 'battle.png' %}" class="battle"  />
+</div>
+
+<!-- 
+<br />
+<img src="{{DicoMovie.Poster}}" width="60"/>Rating : {{DicoMovie.imdbRating}}    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;    Luck : {{Luck}} %  
+<br />
+<b><u></b></u><br />
+{{DicoMovie.Plot}}
+{% if remarque|length > 0 %}<div class="message"> {{remarque}}</div>{% endif %}
+<div class="moviballs"> Movieballs: {{movieballs}}</div>
+ -->
+ {% endblock %}

@@ -1,0 +1,33 @@
+[
+  
+  {
+    "model": "ex00.Articles",
+    "pk": 1,
+    "fields": {
+      "title": "The Shop Around the Corner",
+      "author": "Ernst Lubitsch",
+      "synopsis": "Two employees at a gift shop can barely stand each other, without realizing that they are falling in love through the post as each other's anonymous pen pal.",
+      "content": "Two employees at a gift shop can barely stand each other, without realizing that they are falling in love through the post as each other's anonymous pen pal."
+    }
+  },
+  {
+    "model": "ex00.Articles",
+    "pk": 2,
+    "fields": {
+      "title": "Apocalypto",
+      "author": "Mel Gibson",
+      "synopsis": "As the Mayan kingdom faces its decline, the rulers insist the key to prosperity is to build more temples and offer human sacrifices. Jaguar Paw, a young man captured for sacrifice, flees to avoid his fate.",
+      "content": "As the Mayan kingdom faces its decline, the rulers insist the key to prosperity is to build more temples and offer human sacrifices. Jaguar Paw, a young man captured for sacrifice, flees to avoid his fate."
+    }
+  },
+  {
+    "model": "ex00.Articles",
+    "pk": 3,
+    "fields": {
+      "title": "Zodiac",
+      "author": "David Fincher",
+      "synopsis": "In the late 1960s/early 1970s, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer, an unidentified individual who terrorizes Northern California with a killing spree.",
+      "content": "In the late 1960s/early 1970s, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer, an unidentified individual who terrorizes Northern California with a killing spree."
+    }
+  }
+]

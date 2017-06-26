@@ -1,0 +1,249 @@
+
+Fichier:Bois de La Cambre by GdML.Rai de lumière sur le Bois de la Cambre.
+La lumière est un phénomène physique, un transport d'énergie sans transport de matière. Dans son acception générale de lumière visible, elle est constituée de l'ensemble des ondes électromagnétiques perçues par la vision humaine, c'est-à-dire dont les longueurs d'onde, dans le vide, sont comprises entre </ref>.
+
+La discipline qui étudie la lumière est l'optique. Comme les lois de la propagation de la lumière sont largement semblables à celles des autres rayonnements électromagnétiques, d'autant plus que leurs longueurs d'onde sont proches, l'optique s'étend souvent à d'autres ondes électromagnétiques situées dans les domaines infrarouge et ultraviolet ; c'est ainsi qu'on parle de lumière noire. L'optique physiologique étudie plus particulièrement la perception de la lumière par les êtres humains. La photométrie relie les mesures physiques des rayonnements électromagnétiques à la vision humaine ; la colorimétrie les relie à la perception des couleurs.
+
+Pour l’être humain, la lumière est indispensable à la vision, et tient une part importante du bien-être et de la vie sociale. L'éclairage est une spécialité artistique et industrielle qui fait l'objet de normes légales. La lumière transporte une grande partie de l'énergie solaire jusqu'à la surface de la terre et maintient l'équilibre de l'environnement naturel, avec la régénération de l'oxygène par la chlorophylle des plantes.
+
+La lumière a une forte valeur symbolique; permettant de percevoir les objets avant de les toucher, elle s'associe, dans toutes les cultures humaines, à la connaissance et au progrès (philosophie des lumières).
+
+ Propagation et perception 
+
+La lumière se déplace en ligne droite dans tout milieu transparent homogène, en particulier le vide ou l'air très sec. Elle peut en revanche changer de trajectoire lors du passage d'un milieu à un autre. Dans le vide, la lumière se déplace à une vitesse strictement fixe et moins vite dans les autres milieux. L'affirmation « la vitesse de la lumière est constante », n'a de sens que « dans le vide », ce qui est souvent sous-entendu. La lumière est un peu plus lente dans l'air, et notablement plus lente dans l'eau. Le principe de Fermat ou les lois de Descartes permettent de déduire les changements de trajectoire de la lumière lorsqu'elle passe d'un milieu à l'autre en fonction de sa vitesse dans chacun des milieux.
+
+La lumière peut d'ailleurs être décomposée (les faisceaux prennent des directions différentes selon leur longueur d'onde, et donc selon leur couleur pour la lumière visible) en traversant différents milieux transparents, car la vitesse peut dépendre de la fréquence. La lumière n'est perçue par un récepteur que si elle va directement dans sa direction.
+
+ Photométrie 
+
+Du point de vue physique, il est tout à fait indifférent qu'un rayonnement soit visible ou non. L'évaluation de l'effet d'un rayonnement électromagnétique sur l'éclairement est l'objet de la photométrie. Ces études, entreprises depuis le .</ref>.
+
+ Couleur 
+
+Lorsque le niveau lumineux est suffisant (vision photopique), l'être humain distingue des couleurs, correspondant à la répartition spectrale des lumières qui lui parviennent. La vision est une perception complexe, une activité cognitive dans laquelle plusieurs aires cérébrales collaborent, comparant les sensations à celles enregistrées dans la mémoire, avec plusieurs effets en retour. En particulier, la vision des couleurs s'adapte à l'éclairage ambiant, de façon à attribuer aux objets une couleur, même si, du fait d'une variation de la lumière, la rétine reçoit des rayonnements différents<ref>, notamment chapitre « couleur ».</ref>.
+
+L'être humain est trichromate, son œil comporte trois types de récepteurs, dont la sensibilité spectrale est différente ; les différences entre leurs réponses est à la base de la perception des couleurs. Par conséquent, deux lumières de composition spectrale très différente peuvent être perçues comme étant de la même couleur, si leur influence sur les trois types de récepteurs est égale. On dit alors que les lumières sont métamères. C'est cette particularité que l'on exploite dans la photographie et l'impression en couleurs, ainsi que dans les écrans de télévision et d'ordinateur. Avec trois couleurs bien choisies, dites couleurs primaires, on peut créer, soit par synthèse additive, soit par synthèse soustractive, la perception de très nombreuses couleurs. L'étude de la perception des couleurs, selon les caractéristiques physiques du rayonnement lumineux, est l'objet de la colorimétrie<ref>.</ref>.
+
+ Description physique de la lumière 
+ Ondes et corpuscules 
+
+
+En 1678, Christian Huygens propose une Dualité onde-théorie ondulatoire de la lumière, publiée en 1690 dans son Traité de la Lumière. 
+
+En 1801, Thomas Young expérimente la diffraction et les interférences de la lumière. 
+
+En 1821, Augustin Fresnel énonce que la conception ondulatoire de la lumière est seule capable d’expliquer de façon convaincante tous les phénomènes de polarisation en établissant la nature transversale des ondes lumineuses.
+
+En 1850, Léon Foucault fait prévaloir la théorie ondulatoire sur la théorie corpusculaire newtonienne avec son expérience sur la vitesse de propagation de la lumière. 
+
+Il faudra attendre les travaux de James Clerk Maxwell pour expliquer le phénomène ondulatoire : il publie en 1873 un traité sur les ondes électromagnétiques, définissant la lumière comme une onde qui se propage sous la forme d'un rayonnement qui est la petite partie de l'ensemble du rayonnement électromagnétique qui coïncide avec la région d'énergie maximale du rayonnement solaire. Dans ce rayonnement, les limites du spectre visible sont imprécises. L'efficacité lumineuse spectrale varie un peu d'une espèce à l'autre. Certains oiseaux et insectes distinguent des ultraviolets, invisibles pour l'homme. Les infrarouges suffisamment intenses donnent une sensation de chaleur sur sa peau. Du point de vue de la physique, que le rayonnement soit perçu ou non n'a pas d'importance ; le spectre électromagnétique s'étend, au delà des infrarouges, vers les ondes radio, et au delà des ultraviolets, vers les rayons X et gamma.
+
+Les équations de Maxwell permettent de développer une théorie générale de l'électromagnétisme. Elles permettent donc d'expliquer aussi bien la propagation de la lumière que le fonctionnement d'un électroaimant. Pour les cas simples, les lois de l'optique géométrique décrivent bien le comportement des ondes (on démontre que ces lois sont un cas particulier des équations de Maxwell). Cette description classique est la plus utilisée pour expliquer la propagation de la lumière, y compris des phénomènes compliqués comme la formation d'un arc-en-ciel ou les fentes de Young.
+
+Newton avait développé une théorie purement corpusculaire de la lumière. Elle fut rejetée avec la mise en évidence de phénomènes d'interférence (dans certains cas, additionner deux sources de lumière donne de l'obscurité, ce qui n'est pas explicable par une théorie corpusculaire).
+
+La physique du  a montré que l'énergie transportée par la lumière est quantifiée. On appelle photon le quantum d'énergie (la plus petite quantité d'énergie, indivisible), qui est aussi une particule. La mécanique quantique étudie la dualité onde-particule (ou onde-corpuscule). Le modèle pertinent dépend des conditions de l'étude. Si on considère le déplacement d'un seul photon, on ne peut connaître qu'une probabilité d'arrivée en un point. Sur un très grand nombre de photons, chaque lieu d'arrivée est illuminé avec une intensité proportionnelle à la probabilité… ce qui correspond au résultat de la théorie ondulatoire.
+
+ Vitesse 
+
+
+En 1670, Ole Christensen Rømer mesure indirectement la vitesse de la lumière en observant les décalages de l'orbite de Io par rapport aux prévisions. Plus tard en 1849, Hippolyte Fizeau mesure directement la vitesse de la lumière avec un faisceau réfléchi par un miroir lointain et traversant une roue dentée. La vitesse de la lumière dans le vide, notée c (comme célérité), est une constante de la physique. Cette propriété a été induite de l'expérience d'interférométrie de Michelson et Morley et a été clairement énoncée par Albert Einstein en 1905. 
+
+C'est la vitesse maximale permise pour tout déplacement de tout ce qui transporte de l'information ou de l'énergie, conformément à la théorie de la relativité. D'autres unités sont définies à partir de la vitesse de la lumière (cf. infra). En particulier le mètre est défini de telle sorte que la vitesse de la lumière dans le vide vaille &nbsp;m/s. De ce fait, la vitesse de la lumière est exacte, car elle ne dépend plus d'une mesure (imprécise et susceptible de changement avec des progrès de mesure).
+
+ Addition des vitesses et célérité 
+La loi d'addition des vitesses v' = V+v est à peu près vraie pour des vitesses faibles par rapport à la vitesse de la lumière. Du point de vue de la physique classique, un voyageur marchant dans un train a, par rapport au sol, une vitesse égale à celle du train plus (vectoriellement) sa propre vitesse de marche dans le train. Et l'on écrit d = (V+v) t = Vt +vt = la distance parcourue par le train + la distance parcourue dans le train = la distance parcourue par le voyageur par rapport au sol dans le temps t qui est classiquement le même dans le train et au sol, ce qui implique la loi classique d'addition des vitesses. Ceci n'est qu'une approximation, qui devient de moins en moins précise à mesure que la vitesse v considérée augmente.
+
+Un photon va à la même vitesse c que ce soit par rapport au sol ou par rapport au train ! La loi d'addition des vitesses n'est qu'une approximation de la loi dite de transformation sur les vitesses de Lorentz (appelée parfois d'addition des vitesses, ou plus correctement loi de composition des vitesses). Ce résultat est l'une des caractéristiques de la relativité restreinte ; la loi de composition des vitesses issue des transformations mathématiques de Lorentz donne à la limite des faibles vitesses (par rapport à la vitesse c) les mêmes résultats que les transformations de Galilée.
+
+ Dans les matériaux 
+La vitesse de la lumière n'est pas toujours la même dans tous les milieux et dans toutes les conditions. Les écarts de vitesse observés entre deux milieux sont liés à l'indice de réfraction, qui caractérise les réponses des milieux à la traversée d'une onde électromagnétique.
+
+L'écart entre la vitesse de la lumière dans le vide et la vitesse de la lumière dans l'air est très faible (moins de 1%), ce qui a permis de parler en général de vitesse de la lumière au lieu de vitesse de la lumière dans le vide. Cependant, dans la matière condensée, une onde lumineuse peut être considérablement ralentie (par exemple, de 25% dans l'eau</ref>.
+
+ Dans le Système International (SI) 
+Actuellement, la plupart des unités du Système international sont définies à partir de la célérité de la lumière. Une vitesse étant le quotient d'une longueur par une durée, on peut donc définir une distance comme étant le produit d'une durée par une vitesse (en l'occurrence c), ou une durée comme la division d'une distance par c. 
+
+La seconde est définie dans le Système International par un phénomène lumineux : c'est la durée de  de la radiation correspondant à la transition entre les deux niveaux hyper-fins de l'état fondamental de l'atome de césium 133. 
+
+Le mètre, unité du Système International de longueur. De nos jours, il est défini comme la distance parcourue par la lumière, dans le vide, en  de seconde. Il s'agit là d'une définition conventionnelle, car toute évolution dans la définition de la seconde aurait une incidence directe sur la longueur du mètre. Avec la définition actuelle de la seconde, le mètre est donc égal à :
+: <math> \frac{9\;192\;631\;770}{299\;792\;458} </math> fois la longueur d'onde de la radiation choisie.
+On peut également dire que la vitesse de la lumière dans le vide est précisément  : il n'y a pas la moindre incertitude sur cette valeur, si ce n'est l'incertitude dans la définition de la seconde<ref>[http://www.ac-nice.fr/clea/lunap/html/VitLum/VitLumEnBref.html La mesure de la vitesse de la lumière], Document pédagogique Cléa Académie de Nice.</ref>.
+
+Le mètre, avec ses sous-multiples ou multiples (millimètre, kilomètre), est très pratique pour mesurer les distances sur la Terre ; par contre pour les astronomes, il est trop court et peu adapté (puisque les astronomes n'observent pratiquement que de la lumière). En effet, la Lune, l'astre le plus proche de nous, est à environ ).
+
+ Énergie lumineuse et vie 
+ Biologie 
+Même si certaines formes de vies au fond des océans peuvent s'en passer, la lumière du soleil est la première source d'énergie des écosystèmes terrestres, via la photosynthèse. Elle contrôle donc les cycles écogéobiologiques et le stockage « fossile » du carbone tels qu'ils existent depuis . 
+
+Inversement, elle contribue à certaines formes de pollution dites « photochimiques » (ozone troposphérique, oxyde d'oxydes d'azote) et inversement à dégrader (photodégradation) certains polluants de l'air, du sol superficiel ou de l'eau (certains pesticides présents dans l'air) par exemple. C'est encore la lumière qui via la durée du jour corrige les horloges biologiques animales, par la production de mélatonine qui est une hormone uniquement produite la nuit, chez la plupart des animaux et chez d'autres espèces. Chez les plantes, la durée du jour contrôle aussi, avec la température, l'apparition des bourgeons, feuilles, fleurs, ou l'ouverture ou la fermeture de fleurs. C'est pourquoi la présence de lumière artificielle dans l'environnement nocturne peut altérer le comportement ou les fonctions de certaines espèces ou des écosystèmes ; phénomène généralement décrit sous le nom de « pollution lumineuse ».
+
+Chez la plupart des espèces la lumière naturelle est vitalement nécessaire au bon accomplissement des cycles biologiques. Chez l'homme, l'exposition aux UV de la lumière solaire sont nécessaires à la synthèse de la vitamine D.
+
+ Physiologie 
+
+
+La lumière telle qu’elle est connue dans le monde est un mélange de différentes longueurs d’ondes. La répartition de ces longueurs d'ondes se perçoit, dans des conditions d'éclairement suffisant, comme la couleur.
+
+Le spectre visible est une partie minime du spectre électromagnétiques. Les fréquence supérieures proches de sa limite supérieure, correspondant à une couleur bleu-violet à violet sont désignées jusqu’à une certaine limite par le terme d'ultra-violets ou U.V., tandis que les infra-rouges sont celles dont la fréquence est un peu inférieure à la limite basse, correspondant au rouge. La limite du spectre visible est arbitraire ; la sensibilité de l'œil diminue progressivement, et la limite en fréquence dépend du niveau que l'on considère comme négligeable (1%, 0,1% de la meilleure sensibilité, par exemple)<ref> donnent, de même, la même impression visuelle rouge. La largeur de bande de la lumière visible par les animaux peut varier quelque peu par rapport aux capacités visuelles des êtres humains.
+
+Les différents facteurs qui déterminent l’absorption optique des molécules pigmentaires des récepteurs de la rétine sont au centre des préoccupations de la photométrie et de la colorimétrie. La perception des couleurs est rendue possible par les différences entre les spectres d’absorption des pigments des cônes. Les bâtonnets, plus sensibles que les cônes, quant à eux permettent la vision nocturne, sans perception de couleur grâce à un pigment nommé rhodopsine (ou pourpre rétinienne) ayant un spectre d’absorption plus large.
+
+Dans la vision photopique, diurne, la transformation de la lumière en influx nerveux par les cônes permet la perception colorée. L'adaptation visuelle change les caractères de la perception pour la faire correspondre à l'éclairement de la scène vue, et aux rapports perçus entre les surfaces du champ visuel. La correspondance entre lumière définie physiquement et la perception est assez lâche en général. Les êtres vivants, en dehors d'un contexte technologique, n'ont aucun avantage à mesurer la lumière. La vision leur sert à identifier les objets à distance. Les animaux porteurs des caractères les plus à même de favoriser cette fonction ont gagné un avantage dans la sélection naturelle et les ont propagés<ref>, Chapitre 7 « Voir les couleurs ».</ref>.
+
+ Cycle circadien 
+La lumière naturelle est pulsée par le rythme circadien, qui influe sur l'ensemble des fonctions vitales. Chez l'homme on peut produire ou soigner une dépression par l'absence ou la présence de lumière. Il a été démontré en 2008<ref> Riemersma-van der Lek et coll. ; Effect of bright light and melatonin on cognitive and non cognitive function of elderly residents of group care facilities. A randomized controlled trial. Revue JAMA 2008 ; 299 : 2642-2655</ref> que la prise de mélatonine et l'exposition à la lumière naturelle améliorent les symptômes de troubles des cycles du sommeil ; la prise de mélatonine facilite l'endormissement (huit minutes plus tôt en moyenne) et allonge le sommeil de vingt-sept minutes en moyenne. L'exposition à la lumière naturelle diminuerait aussi chez ces malades les symptômes de dépression (-19 %), les limitations fonctionnelles au quotidien (- 53 %) et la détérioration cognitive (- 5 %). L'association lumière + mélatonine a aussi diminué les comportements agressifs (- 9 %), les phases d'agitation et de réveils nocturnes. 
+
+Le  ajoute-t-il<ref name=InfoAlzheimer/>.
+ Sources lumineuses 
+ Mesure 
+En matière de mesure de la lumière, il importe de bien définir de quoi on parle :
+* l'unité de flux lumineux, ou puissance lumineuse est le lumen = candela.stéradian. Une ampoule électrique courante ( à incandescence classique) produit environ 1500 lumens ;
+* l'unité internationale d'intensité lumineuse est la candela.
+
+La lumière est constituée d'ondes électromagnétiques, caractérisées par la longueur d'onde dans le vide, correspondant à un niveau d'énergie, et l'intensité. La longueur d'onde correspond à la perception de couleur de la lumière. Une onde électromagnétique constituée d'ondes de la même longueur d'onde, est dite monochromatique. Si en plus toutes les ondes ont la même polarisation, alors la lumière est cohérente : c'est ce qui se passe dans un laser.
+
+La mesure de la lumière est compliquée par le fait qu'on s'intéresse, en pratique, à la lumière visible, alors que la perception humaine dépend de la longueur d'onde. Le rapport entre ces deux grandeurs, déterminé empiriquement, se trouve dans le tableau des valeurs d'efficacité lumineuse spectrale.
+
+ Luminaires naturels 
+Le Soleil est la source principale de lumière naturelle. Les étoiles plus lointaines rayonnent suffisamment pour être visibles, mais pas assez pour éclairer. La lumière solaire est suffisamment puissante pour que la petite partie de son rayonnement diffusée par l'atmosphère terrestre et réfléchie par les objets de la surface suffise pour voir les parties qu'elle n'atteint pas directement.
+
+La Lune réfléchit suffisamment de lumière solaire pour permettre la vision scotopique (nocturne), sans perception des couleurs, des objets que son rayonnement frappe directement.
+
+Les autres petits corps célestes, planètes et leurs satellites, astéroïdes, comètes), produisent de même moins de rayonnement qu'ils n'en reçoivent, et leur rayonnement, comme celui des étoiles, est insuffisant pour éclairer à la surface de la Terre. Certaines planètes géantes (comme Jupiter ou Saturne) produisent un peu plus de rayonnement qu'elles n'en reçoivent, mais pas suffisamment pour être facilement visibles à l'œil nu depuis la Terre. Les étoiles filantes, quant à elles, sont échauffées par la friction avec l'air et finissent par y brûler. Ce phénomène est source d'une lumière également insuffisante pour éclairer.
+
+Les objets chauds émettent un rayonnement électromagnétique dont l'énergie dépend de leur température ; un corps noir produirait une lumière de spectre lumineux à peu près semblable à celui du Soleil à une température d'environ . Les combustions en milieu ouvert échauffent suffisamment de poussières pour que celles-ci produisent de la lumière.
+
+Certains organismes vivants : poissons, mollusques, lucioles et vers luisants, produisent de la lumière par bioluminescence.
+
+ Luminaires artificiels 
+Les premières sources artificielles de lumières ont été obtenues par le feu. Le bitume et la poix renforcent l'éclat des torches. Les archéologues ont découvert des lampe à huile rudimentaires parmi les objets remontant au Néolithique. Les chandelle et bougies, de principe identique, présentent l'avantage pratique d'un combustible solide, qui ne se liquéfie que par la chaleur de la combustion.
+
+Pour éclairer il faut des matières dont la combustion imparfaite produit des poussières, chauffées par la réaction de parties plus volatiles avec l'oxygène de l'air. La combustion du pétrole ou du gaz), bien réglée, est trop parfaite pour éclairer. On disposait les luminaires à pétrole ou à gaz de sorte qu'un excès de combustible produise les poussières nécessaires, jusqu'à ce que l'invention du manchon à incandescence à la fin du  permette l'amélioration du rendement des lampes.
+
+Les lumières électriques sont actuellement les sources les plus courantes de lumière artificielle : lampadaires, spots, phares, lampes-torches, etc., elles peuvent utiliser un phénomène de chauffage ou un phénomène quantique. L'ampoule électrique (« lampe à incandescence ») a révolutionné la vie quotidienne. La source de lumière provient de l'incandescence d'un filament lumineux.
+
+Le tube fluorescent est une lumière électrique, ainsi que le tube cathodique qui emploie la technique d'un bombardement d'électrons sur un enduit électroluminescent.
+
+Fichier:Uv-LED.Diode.
+La fluorescence, les lasers, les diodes électroluminescentes, les lampes à vapeur de mercure ou de sodium, les plasmas tels que ceux produits par les éclairs dans les orages, produisent de la lumière issue de phénomènes quantiques au cœur des atomes : l'excitation des électrons (« pompage optique »), peut être obtenu par excitation, puis désexcitation de ces électrons, qui en retournant à leur niveau d'énergie habituel, émettent des photons (lumière).
+
+ Législation 
+La lumière compte parmi les facteurs environnementaux dans la loi sur la protection des émissions. Les émissions lumineuses issues de systèmes d'éclairage artificiels peuvent perturber significativement le cycle du sommeil indispensable à l'homme et à la nature en empêchant la réalisation de certains processus naturels. Les règlements sur la lumière, particulièrs à chaque pays, définissent l'éclairage normal de l'éclairage intérieur et le seuil d'éblouissement. Les lumières aux couleurs intenses et clignotantes peuvent s'avérer particulièrement perturbantes. L'État veille à la bonne application de la loi en la matière, incluse en France dans le Code de l'environnement. La lumière intéresse la sécurité en matière de transport : niveau et répartition de l'éclairage urbain, réglage des phares de voiture pour éviter l'éblouissement. Les effets néfastes de la lumière artificielle sur la faune sauvage (par exemple, sur les insectes nocturnes, la perturbation des oiseaux migrateurs), la pollution lumineuse nuisible à l'observation de l'espace motivent les limitations réglementaires.
+
+ Histoire de l'étude de la lumière 
+ Symbolisme 
+Les premières connaissances sur la lumière sont d'ordre symbolique. L'absence de lumière, les ténèbres, s'associe à la mort. Il est difficile de discerner, dans la pensée religieuse, ce qui concerne la lumière proprement dite et ce qui s'adresse aux divers luminaires d'où elle provient, le soleil, la lune, le ciel, le feu.
+
+La propriété de la lumière de se transmettre à distance sans support matériel alimente une métaphore ancienne, qui l'associe aux idées. Vitellion, savant polonais du .</ref>.
+
+Dans le discours philosophique, la lumière est souvent une métaphore de la connaissance. Descartes, qui a produit d'importants travaux d'optique, préface Les Principes de la philosophie en filant cette métaphore : . Cent ans plus tard, le prestige des intellectuels dans la société européenne se résume dans l'expression « le siècle des Lumières », où lumière peut désigner aussi bien les connaissances que ceux qui les établissent ou les diffusent.
+
+ Antiquité 
+Le plus ancien ouvrage connu évoquant la lumière de manière scientifique est intitulé Optique et fut rédigé par Euclide autour de 280 avant Jésus-Christ. À cette époque, le mécanisme de l’imagerie de l’œil et la nature de la lumière sont encore inconnus, mais certains principes émergent, comme la propagation de la lumière en ligne droite dans les milieux homogènes<ref name=Klein/>.
+
+Dans son ouvrage, Euclide résume le savoir de l’époque concernant la lumière. Par exemple, la loi de la réflexion est indiquée de manière quantitative, et elle était déjà connue à l’époque de Aristote, soit près de cent ans auparavant. Il s’agit d’une loi empirique, affirmée sans démonstration<ref name=Klein/>.
+
+Dans la continuité des travaux de Platon, Euclide conçoit la lumière comme un instrument totalement géométrique de la vision, pour lequel des « rayons » partent de l’œil et sont interceptés par l’objet, au rebours de la conception moderne, où la lumière existe indépendamment de l'observateur. Pour Euclide, il n’est pas possible de parler de lumière ailleurs que dans le champ de vision de l’observateur<ref name=Klein>.</ref>.
+
+Cette conception va dominer parmi les savants en Europe à peu près jusqu'à la Renaissance.
+
+Pour Euclide, les rayons lumineux s'installent instantanément ; il n'y a pas de propagation de la lumière, les rayons sont là d'emblée. Lorsque l’observateur ouvre les yeux, il voit instantanément des étoiles très distantes<ref name=Klein/>.
+
+  
+Au , Héron d’Alexandrie rédige ses Catoptriques, ouvrage dans lequel il rationalise la propagation en ligne droite de la lumière grâce à une analogie avec la mécanique. En effet, d’après le Principe d’inertie, en supposant que la lumière se propage à vitesse infinie, on impose une vitesse constante: il ne peut donc pas y avoir de changement de trajectoire. En effet, si la trajectoire était différente d’une ligne droite, il y aurait une évolution dans les composantes du vecteur vitesse<ref name=Klein/>.
+
+De plus, Héron d’Alexandrie est le premier à parler chemin minimal parcouru par la lumière, seul principe de cette époque qui reste encore valide aujourd’hui. Fidèle à la tradition grecque, il utilise une méthode géométrique et l’idée que la vitesse de la lumière est infinie pour démontrer sa thèse. Cette démonstration est en réalité inexacte car fondée sur des arguments incorrects<ref name=Klein/>.
+
+Comme Euclide, Héron d’Alexandrie pensait que la lumière partait de l’œil et venait heurter l’objet. Mais, par chance, la propagation en ligne droite de la lumière ainsi que le principe de retour inverse (compris bien plus tard) permettent à son explication de fonctionner malgré des hypothèses fausses. Il démontre également de manière graphique l’égalité des angles incident et réfléchis à la surface d’un dioptre<ref name=Klein/>.
+
+  
+Au , Claude Ptolémée étudie de manière expérimentale la réflexion et reporte ses travaux dans le cinquième volume de L’Optique. Il découvre que l’angle réfracté est en lien avec la densité du milieu et trouve empiriquement une loi polynomiale de la forme<ref name=Klein/>:
+: <math>\theta \prime = a\theta - b\theta^2</math>
+Avec a et b deux constantes liées aux milieux de part et d’autre du dioptre, θ l’angle incident et θ’ l’angle réfracté.
+
+Cette loi fonctionne pour les petits angles, mais devient fausse lorsque les angles augmentent. Néanmoins, c’est sous cette formulation qu’elle a été utilisée pendant près de <ref name=Klein/>.
+
+ Galilée et Kepler 
+L’optique bascule brutalement avec la découverte fortuite des lentilles par des artisans Italiens vers la fin du . Ces systèmes optiques ne seront néanmoins étudiés d’un point de vue scientifique qu’avec l’arrivée de Galilée qui se met à polir des lentilles pour son usage personnel en 1609. Bien que le télescope ait été connu avant lui, Galilée est également le premier à l’utiliser pour l’observation scientifique. Grâce à la lunette astronomique qu’il construit sur le modèle d’une longue-vue hollandaise, il parvient à observer précisément la Lune, puis découvre les Lunes de Jupiter<ref name=Klein/>.
+
+Dans le même temps, l’Allemand Johannes Kepler résume l’ensemble des connaissances de l’optique dans son ouvrage Dioptrice, après avoir vérifié les travaux de Galilée. Dans son ouvrage figurent également les premières théories concernant les systèmes à plusieurs lentilles ainsi qu’une nouvelle formulation de la loi de la réfraction<ref name=Klein/>.
+: <math>\theta ^\prime = N \theta</math>
+Avec :
+* N une constante dépendant des deux milieux, 
+* θ l’angle incident
+* θ’ l’angle réfracté.
+
+ Travaux en Orient 
+Autour de l'An mille, Ibn Al Haytham (965 - 1039), de son nom latinisé Alhazen, rédige à Baghdad une série de sept ouvrages concernant l'optique, le Traité d'Traité d'optique. Il y présente des principes fondamentaux, insiste notamment sur le fait que la lumière provient de sources lumineuses et que les rayons viennent ensuite illuminer l'œil. Des explications très claires concernant le fonctionnement de l'œil y sont également rassemblées. Il imagine également le principe des chambres noires, soit environ  avant que Léonard de Vinci n'ait l'idée du sténopé. Alhazen est également le premier à penser que la lumière se déplace à vitesse finie et en particulier que cette vitesse est plus élevée dans les milieux de faible densité<ref name=Klein/>. 
+
+La vision de l'optique selon Alhazen reste cependant inexacte car elle est très largement inspirée par des analogies avec la mécanique. Dans son modèle, la lumière doit être représentée sous forme de petits grains soumis à des forces de surface (notamment) qui permettent d'expliquer les lois de la réflexion et de la réfraction. La plupart de ses affirmations sont correctes, mais fondées sur des arguments inexacts<ref name=Klein/>.
+
+Alhazen est le savant perse souvent considéré comme le père moderne de l'optique, de la physique expérimentale et de la méthode scientifique<ref> note que le Traité d'Optique est aussi connu comme Opticae Thesaurus Alhazen Arabis, comme De Aspectibus, et comme Perspectiva</ref>, a exercé une grande influence sur la science occidentale.
+
+ Descartes, Snell et Grimaldi 
+Avec Pierre de Fermat et Isaac Newton, René du Perron Descartes est l'un des principaux fondateurs de l'optique géométrique. 
+
+Pour la plupart de ses travaux, la vision de la lumière selon Descartes est géométrique: tous les phénomènes observés se traduisent en termes de rayons lumineux.  Ses travaux, exposés dans La dioptrique se concentrent sur la compréhension des phénomènes optiques aux interfaces. Il y expose notamment la formulation exacte de la loi de la réfraction<ref name=Klein/>.
+
+Pour prouver la loi de la réfraction, il utilise une analogie entre l’optique et la mécanique. La lumière n’est plus un rayon mais prend un aspect corpusculaire: il interprète la lumière comme un ensemble de petits grains de lumière et parvient, grâce aux lois de la mécanique du point, à trouver les relations exactes pour la réflexion (loi déjà connue longtemps auparavant mais jamais prouvée de cette manière), et de la réfraction. De nouveau, les arguments avancés dans la preuve sont inexacts, mais le résultat est correct<ref name=Klein/>.
+
+Parallèlement aux travaux de Descartes, Willebrord Snell établit indépendamment la loi de la réfraction en 1621. Ses travaux sont cependant publiés bien plus tard et ont une approche plus expérimentale que ceux de Descartes. La loi de la réfraction est donc généralement appelée loi de Descartes en France, loi de Snell dans les pays anglophones, voire loi de Snell-Descartes<ref name=Klein/>.
+
+ Fermat et Rømer 
+Pierre de Fermat est principalement connu pour sa formulation du principe de Fermat, principe qu’il n’est en fait pas le premier à avoir proposé (Héron d’Alexandrie l’avait déjà évoqué). Il s’agit d’un principe, dans le sens où Fermat constate que la nature agit selon une équation mathématique mais il ne fournit pas d’explication du phénomène<ref name=Klein/>. 
+
+En 1664, Fermat indique dans une lettre scientifique qu’il constate que la nature agit toujours en prenant le plus court chemin. Sa compréhension du phénomène est que la nature cherchant la simplicité, elle emprunte le chemin le plus court parce qu’il est le plus facile. Poursuivant son idée de facilité du chemin, il introduit la ‘’résistance optique’’, une caractéristique du milieu permettant d’expliquer la réfraction. De plus, avec Ole Christensen Rømer, il est un des premiers à affirmer que la vitesse de la lumière est finie. Il pense d’abord que celle-ci est inversement proportionnelle à la résistance optique du matériau, puis que la résistance optique doit être elle-même proportionnelle à la densité du matériau<ref name=Klein/>.  
+
+Fermat parvient également à redémontrer la loi de Descartes en utilisant des hypothèses totalement différentes de celles de Descartes. Cette loi est ainsi, pour la première fois, démontrée avec des hypothèses exactes<ref name=Klein/>. 
+
+Quelques années plus tard, Olaf Römer démontre que la vitesse de la lumière n’est pas infinie en observant les satellites de Jupiter. Il observe que la période du satellite est plus longue lorsque la Terre s'éloigne de Jupiter, ce qui impose une valeur finie pour la vitesse de la lumière<ref name=Klein/>.
+
+ Newton 
+Contemporain à Descartes et également très impliqué dans le développement de la mécanique, Newton interprète les phénomènes lumineux en termes de forces. Cela lui permet de faire une analogie avec la mécanique du point, certes inexacte dans son principe, mais le conduisant à des résultats corrects<ref name=Klein/>. 
+
+En 1704, il publie Opticks, ouvrage qui sera considéré par ses pairs comme la description la plus précise de la lumière de son temps. Newton ayant exercé une très large influence dans le milieu de la physique de son époque, les suppositions selon lesquelles la lumière pouvait être une onde furent écartées pendant près d’un siècle car il ne retint pas cette idée<ref name=Klein/>. 
+
+Opticks est l’occasion de rassembler les résultats d’expériences concernant la réfraction, mais également ceux des phénomènes d’interférences, restés sans explications à l’époque car ils nécessitent un modèle ondulatoire. En utilisant des prismes, il réalise également des expériences de colorimétrie et parvient à décomposer le spectre de la lumière blanche<ref name=Klein/>. 
+
+Selon Newton, la lumière est interprétable de manière corpusculaire: les faisceaux lumineux qui se propagent dans l’éther sont une succession de grains de lumière dont la taille est reliée à la couleur<ref name=Klein/>. 
+
+Newton est également célèbre pour son observation des anneaux de Newton, bien qu’ils aient été en fait observés pour la première fois près de quarante ans auparavant par Robert Hooke. Le dispositif pour observer ses franges était constitué d’une lentille plan-convexe posée sur une surface plane (côté bombé sur le plan). Le phénomène n’est pas expliqué à son époque car Newton ne connaît pas la nature ondulatoire de la lumière, il admet néanmoins que l’épaisseur d’air joue un rôle déterminant dans ce phénomène. Newton sait qu’il est possible d’interpréter la lumière en termes d’onde, mais il réfute cette interprétation car la lumière pourrait alors se diffuser, comme le son, et obtenir une ombre serait alors impossible. Ainsi, il explique le phénomène (qui est en fait un phénomène d’interférences) en supposant qu’il existe des chemins plus faciles que d’autre pour traverser le système: ainsi, certaines zones sont noires et d’autres sont brillantes<ref name=Klein/>.
+
+ Voir aussi 
+{{Autres projets
+ wiktionary = lumière
+ commons = Light
+ wikiquote = Lumière
+ wikiversity = La lumière
+}}
+
+ Bibliographie 
+* 
+* 
+* 
+* 
+
+ Articles connexes 
+* Éclairage
+* Photosynthèse
+* Photométrie
+* Pollution lumineuse
+
+ Liens externes 
+* [http://www.colorimetrie.be/phenomenes_lumineux.htm Phénomènes lumineux], sur le site colorimetrie.be
+* [http://culturesciencesphysique.ens-lyon.fr/XML/db/csphysique/metadata/LOM_CSP_Vlumiere.xml Un dossier complet sur la vitesse de la lumière] sur le site [http://culturesciencesphysique.ens-lyon.fr Culturesciences-Physique] de l'ENS Lyon (un historique, les indices optiques, la relativité, l'effet Cherenkov...)
+*  [http://www.ergonomie.chups.jussieu.fr/op5_5_at.pdf Dossier sur la lumière et projet d'éclairage], sur le site ergonomie.chups.jussieu.fr
+* [http://iris.univ-lille1.fr/expo/lumiere "Lumière!", une exposition en ligne sur l'histoire de la lumière], sur la bibliothèque numérique en histoire des sciences IRIS - Université Lille 1
+
+ Notes et références 
+
+<hr />
+
+ (notamment le paragraphe "physiologie")
+
+
+
+
+
+Catégorie:*

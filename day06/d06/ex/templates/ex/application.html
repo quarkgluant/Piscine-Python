@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>
+    Life Pro Tips
+  </title>
+<!--    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+    {% block style %}
+    {% endblock %}
+ -->
+</head>
+<body>
+<!--    {% if request.COOKIE.mycookie %}
+    Cookie value : {{request.COOKIE.mycookie}}
+    {% else %}
+    Cookieundefined.
+    {% endif %}
+ -->
+
+        {% include 'ex/nav.html' %}
+
+
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

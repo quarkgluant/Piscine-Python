@@ -1,0 +1,268 @@
+	body { 
+		background: black /*url(http://i.imgur.com/KzhyHhr.gif)*/;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.container {
+		padding-top: 20px;
+		height: 1100px;
+		width: 700px;
+		position: relative;
+	}
+	.screen {
+		position: absolute;
+		height: 315px;
+		width: 360px;
+		top: 169px;
+		left: 169px;
+	}
+	.screen h1 {
+		text-align: center;
+		font-size: 24px;
+		margin-bottom: -16px;
+	}
+	.screen div {
+		height: 100%;
+		width: 100%;
+		position: relative;
+	}
+	.screen div.shutdown {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	.screen div.title_screen {
+		background-color: rgba(0, 0, 0, 0);
+		text-align: center;
+		font-size: 18px;
+	}
+	img.map, img.battle, img.moviedex {
+		height: 100%;
+		border-radius: 4px;
+		overflow: hidden;
+	}
+	img.map {
+		width: 100%;
+	}
+	.map, .battle, .moviedex {
+		border-radius: 4px;
+	}
+
+	.battle {
+		overflow: hidden;
+		position: relative;
+	}
+
+	.battle div, .summary {
+		z-index: 100;
+	}
+
+	.summary h1{
+		margin-top: 140px;
+		
+	}
+	.summary h2 {
+		font-size: 19px;
+		text-align: center;
+		margin-bottom: -38px;
+	}
+
+	.summary p {
+		text-align: center;
+		margin-top: 130px;
+	}
+
+	.poster {
+		width: 170px !important;
+		height: 250px !important;
+		float: right;
+		display: inline-block;
+		margin-top: -100px;
+	}
+
+
+	.poster img {
+		height: auto;
+		width: 90%;
+		padding: 10px;
+		overflow: hidden;
+	}
+
+	.monster {
+		height: 250px !important;
+		width: 170px !important;
+		text-align: center;
+		float: left;
+		display: inline-block;
+		margin-top: -100px;	
+	}
+
+	.monster table {
+		margin: 0 0 10px 12px;
+	}
+
+	.monster td {
+		padding: 2px;
+	}
+
+	.monster h2 {
+		margin: 20px 0 4px;
+	}
+
+	.monster h3, .monster h4 {
+		margin: 0;
+	}
+	.moviedex .infos {
+		background-color: rgba(255, 0, 0, 0.3);
+		position: absolute;
+		z-index: 100;
+	}
+	.moviedex .monster {
+		width: 190px !important;
+	}
+
+	.cmd {
+		margin-top: 100px;
+		bottom:10px;
+	}
+	p.test{
+	    font-weight: bold;
+	    color: #f95;
+	    text-decoration: underline;
+	}
+
+	.cmd span:first-child {
+		float: left;
+		margin-top: 20px;
+		padding: 8px 28px;
+
+	}
+
+	.cmd span:last-child {
+		float: right;
+		margin-top: 20px;
+		padding: 8px 28px;
+	}
+
+	.moviedex {
+		overflow: hidden;
+	}
+	.moviedex .monster {
+		margin-top: -4px;
+	}
+
+	.moviedex .poster {
+		margin-top: 0px;
+	}
+
+	img.battle {
+		position: absolute;
+		margin: auto; 
+		min-height: 100%;
+		min-width: 100%;
+		left: -100%;
+		right: -100%;
+		top: -100%;
+		bottom: -100%;
+	}
+
+	img.moviedex {
+		position: absolute;
+		height: auto;
+		width: 100%;
+		min-height: 100%;
+		min-width: 100%;
+	}
+
+	.player {
+		position: absolute !important;
+		width: 10%;
+		height: 10%;
+		/*top: 0%;*/
+		/*left: 0%;*/
+	}
+	.imgmon{
+    background-size: cover;
+    width: 50px !important;
+    height: 70px !important;
+    float: left;
+	}
+
+	.tuning {
+	border:1px solid #f00;
+	}
+
+
+	.moviballs {
+		position: absolute;
+		margin-left: 100px;
+/*		margin-right: 250px;
+*/		color: blue;
+		font-size: 18px;
+	}
+	.message {
+		color: red;
+		font-size: 18px;
+	
+	}
+	.save_slot {
+		margin: 26px;
+		padding: 20px;
+		height: 20px !important;
+		width: auto !important;
+		background-color: rgba(0, 0, 0, 0.15);
+	}
+	.save_slot.selected, {
+		font-style: bolder;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+
+	.gb_title {
+		width: 70%;
+		margin: 40px auto;
+	}
+
+	.light {
+		position: absolute;
+		background-color: rgba(255, 0, 0, 0.3);
+		height: 18px;
+		width: 18px;
+		top: 267px;
+		left: 95px;
+		border-radius: 50%;
+		display: block;
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.light.off {
+		display: none;
+  		visibility: hidden;
+  		opacity: 0;
+	}
+
+	.gameboy {
+		background: url("../images/Game_Boy.png") center no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+	}
+	.gb {
+		width: 100%;
+		height: 100%;
+
+	}
+	area {
+		display: block;
+		outline: none;
+		background-color: rgba(0, 255, 0, 0.3);
+	}
+
+@media (max-width: 720px) {
+  .container {
+  	display: none;
+  	visibility: hidden;
+  	opacity: 0;
+  }
+}

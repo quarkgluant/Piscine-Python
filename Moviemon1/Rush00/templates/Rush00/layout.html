@@ -1,0 +1,235 @@
+{% load staticfiles %} 
+<!doctype html>
+<html>
+	<head>
+		<title>Moviemon</title>
+
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'game.css' %}" />
+	{% block style %}
+	{% endblock %}
+
+<!-- 		<style>
+			#gameview{
+				position:relative;
+				background-image:url("static/gamebo2.png");
+				width:343px;
+				height:406px;
+			}
+			#backview{
+				position:relative;
+				background-image:url("static/gamebo2.png");
+				width:343px;
+				height:406px;
+			}
+
+			#screen{
+				background-image: url("https://maps.googleapis.com/maps/api/staticmap?center=10,100&zoom=3&tile=0&size=300x300&maptype=satellite&key=AIzaSyAaI6GsGp-nmqzU67hLXNlqpqE94i7UvTQ");
+			    position: absolute;
+			    top: 20px;
+			    left: 20px;
+			    width: 266px;
+			    height: 267px;
+			    overflow: hidden;
+			    padding-top: 6px;
+			    padding-left: 22px;
+			    padding-right: 1px;
+				color: #ddd;
+			}
+			.controle{
+			    position: absolute;
+			    bottom: 11px;
+			    left: 10px;
+				color:none;
+			}
+
+			.controle a {
+				color: transparent;
+			}
+			.controle #btn_up{
+			    position: absolute;
+			    left: 60px;
+			    bottom: 63px;
+			}
+			.controle #btn_down{
+			    position: absolute;
+			    left: 59px;
+			    bottom: 21px;
+			}
+			.controle #btn_right{
+			    position: absolute;
+			    left: 79px;
+			    bottom: 42px;
+			}
+
+			.controle #btn_left{
+				    position: absolute;
+				    left: 37px;
+				    bottom: 42px;
+			}
+
+			.controle #btn_select{
+			    position: absolute;
+			    left: 125px;
+			    bottom: 42px;
+			    height: 25px;
+			    width: 30px;
+			}
+
+			.controle #btn_start{
+			    position: absolute;
+			    left: 161px;
+			    bottom: 42px;
+			    height: 25px;
+			}
+
+			.controle #btn_a{
+			    position: absolute;
+			    left: 259px;
+			    bottom: 58px;
+			    height: 25px;
+			    width: 40px;
+			}
+
+			.controle #btn_b{
+				position: absolute;
+				left: 223px;
+				bottom: 42px;
+				height: 25px;
+				width: 30px;
+			}
+
+			.player{
+				background-image: url("http://i78.photobucket.com/albums/j114/ratty165/art%20stuff/sprite%20work/trainer000.png");
+			    width: 30px;
+			    height: 30px;
+			    background-size: cover;
+			    top: 130px;
+			    left: 130px;
+			    position: absolute;
+			}
+
+			.moviballs{
+			    position: absolute;
+			    left: 18px;
+			    padding-left: 10px;
+			    bottom: 0;
+			    height: 25px;
+			    width: 253px;
+			    color: #fff;
+			    background-color: #333;
+			    opacity: 0.5;
+			}
+
+			.message {
+			    position: absolute;
+			    top: 83px;
+			    left: 50px;
+			    width: 190px;
+			    background: #333;
+			    height: 89px;
+			    text-align: center;
+			    padding: 10px;
+			    opacity: 0.6;
+			}
+
+			.coord {
+				position: absolute;
+				right: -5px;
+				bottom: 249px;
+				background-color: #333;
+				opacity: 0.8;
+			}
+
+			.imgmon{
+			    background-size: cover;
+			    width: 51px;
+			    height: 77px;
+			    float: left;
+			}
+
+			.tuning {
+				border:1px solid #f00;
+			}
+			.miniaturedetail {
+			    font-size: 8px;
+			    position: absolute;
+			    top: 13px;
+			    right: 8px;
+			    width: 113px;
+			}
+
+			.poster{
+			    background-size: cover;
+			    width: 141px;
+			    height: 211px;
+			    position: absolute;
+			}
+
+			p.test{
+			    font-weight: bold;
+			    color: #f95;
+			    text-decoration: underline;
+			}
+
+		</style>
+ -->	</head>
+	<body>
+		<div class="container">
+			<span class="screen">
+				<div class="map">
+ 						{% block content %}
+							<h2>Contenu par defaut </h2>
+						{% endblock %}
+				</div>
+			</span>
+
+<!-- 			<% if $view == "shutdown" %>
+				<span class="light off"></span>
+			<% else %>
+				<span class="light"></span>
+			<% end %>
+ -->
+ 			<!-- <span class="screen"><%= yield %></span> -->
+			<img src="{% static 'gameboy.png' %}" class='gb' usemap='#buttons_map' />
+			
+			<map name="buttons_map">
+				<area shape="rect" coords="90,4,210,50" href="/power" alt="power"> 
+				<area shape="circle" coords="596,710,42" href="?a=a" alt="A">
+				<area shape="circle" coords="486,756,42" href="?a=b" alt="B">
+
+				<area shape="rect" coords="116,660,176,720" href="?a=up" alt="up"> 
+				<area shape="rect" coords="174,716,234,770" href="?a=right" alt="right">
+				<area shape="rect" coords="116,768,176,822" href="?a=down" alt="down">
+				<area shape="rect" coords="64,716,120,770" href="?a=left" alt="left">
+
+				<area shape="poly" coords="210,910,292,872,298,894,220,928" href="?a=select" alt="select">
+				<area shape="poly" coords="330,910,404,872,414,894,340,928" href="?a=start" alt="start">
+
+			</map>
+		</div>
+<!-- 		<div id="container">
+
+					<div id="backview">
+						<div id="controle" class="controle">
+
+							<a href="?a=up"> <div id="btn_up" class="left">UP</div></a>
+							<a href="?a=down"> <div id="btn_down" class="left">DO</div></a>
+							<a href="?a=right{% if index %}&index={{index}}{% endif %}"> <div id="btn_right" class="left">RI</div></a>
+							<a href="?a=left"> <div id="btn_left" class="left">LE</div></a>
+							<br />
+							<hr>
+							<div style="clear:both;"></div>
+
+							<a href="?a=select"> <div id="btn_select">SE</div></a>
+							<a href="?a=start"> <div id="btn_start">ST</div></a>
+							<a href="?a=a"> <div id="btn_a">AA</div></a>
+							<a href="?a=b"> <div id="btn_b">BB</div></a>
+
+						</div>
+					</div>
+					<div class="emblem"></div>
+				</div>
+		</div>
+ -->	</body>
+</html>

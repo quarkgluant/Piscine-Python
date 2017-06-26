@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+	<table style="width:800px; border-collapse: collapse; border: 5px solid green;">
+		<thead style=" padding: 10px; border: 2px solid blue;border-collapse: collapse;">
+			<tr>
+				<th>Movie</th>
+				<th>Episode nb</th>
+				<th>Synopsis</th>
+				<th>Director</th>
+				<th>Producer</th>
+				<th>Date</th>
+			</tr>
+		</thead>
+		<tbody>
+		{% for item in data %}
+			<tr>
+				{% for var in item %}
+				<td style=" padding: 10px; border: 1px solid black;">{{ var }}</td>
+				{% endfor %}
+			</tr>
+		{% endfor %}
+		</tbody>
+	</table>
+</body>
+</html>

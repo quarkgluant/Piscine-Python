@@ -1,0 +1,30 @@
+{% load staticfiles %} 
+<!doctype html>
+<html>
+<head>
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'ex00/static/style.css' %}"/>
+
+</head>
+<body>
+    <p>Submit your files here :</p >
+    <form   method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit">
+    </form>
+    <ul>
+    {% for file in files %}
+        <li>
+         <img src="{{ file.file.url }}"/>
+            <a href="{{ file.file.url }}" >
+                {{ file.title }}
+            </a>    
+        </li>
+        {% empty %}
+        No file yet.
+    {% endfor %}
+    </ul>
+</body>
+</html>

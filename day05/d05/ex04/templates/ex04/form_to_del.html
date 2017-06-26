@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+	<form method="POST">
+		{% csrf_token %}
+		<select name="movies">
+	{% for item in data %}
+
+
+			<option name="title" value=="{{item.1}}"> {{item.0}} </option>
+
+	{% endfor %}
+		</select>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{% extends 'moviemon/layout.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<table class="grid">
+{% for i in rows %}
+    <tr>
+        {% for o in columns %}
+        {% if player_col == o and player_row == i %}
+            <td class="grid-column-on"></td>
+        {% else %}
+            <td class="grid-column"></td>
+        {% endif %}
+        {% endfor %}
+    </tr>
+{% endfor %}
+</table>
+
+
+{% endblock content %}

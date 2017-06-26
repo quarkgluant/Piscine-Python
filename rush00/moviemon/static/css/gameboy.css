@@ -1,0 +1,117 @@
+.gb {
+    background-color: #ffd746;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px 10px 70px 10px;
+    padding-top: 10px;
+}
+
+.gb-container {
+    width: 90%;
+    height: 50%;
+    background-color: #dedede;
+    margin: auto;
+    border-radius: 10px 10px 70px 10px;
+    text-align: center;
+    line-height: 200px;
+    padding-top: 10%;
+}
+
+.gb-content {
+    width: 250px;
+    height: 250px;
+    background: black;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+ /*   overflow: hidden;*/
+    color: darkgrey;
+    text-align: center;
+}
+
+.gb-block-control {
+    background: aqua;
+    padding: 20px;
+}
+
+.gb-block-cross {
+    display: inline;
+    width: 100px;
+    color: aliceblue;
+    height: 100px;
+    float: left;
+}
+
+.gb-block-select {
+    display: inline-block;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    height: 100px;
+}
+
+.gb-block-choice {
+    display: inline;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    height: 100px;
+    float: right;
+}
+
+
+.button {
+    margin: 0;
+    padding: 0;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+
+#up {
+    background-image: url('../../static/img/up.png');
+}
+
+#down {
+    background-image: url('../../static/img/down.png');
+}
+
+#left {
+    background-image: url('../../static/img/left.png');
+}
+
+#right {
+    background-image: url('../../static/img/right.png');
+}
+
+.grid {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid-column {
+    border: aliceblue solid 1px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 5px;
+}
+
+.grid-column-on {
+    border: aliceblue solid 1px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../static/img/popcorn.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

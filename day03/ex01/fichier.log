@@ -1,0 +1,1199 @@
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xqpsax6q-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xqpsax6q-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xqpsax6q-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xqpsax6q-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xqpsax6q-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-0xpll0l5-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmp2hhgogft
+    running install
+    error: must supply either home or prefix/exec-prefix -- not both
+Cleaning up...
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xqpsax6q-build
+Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xqpsax6q-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-0xpll0l5-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmp2hhgogft" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xqpsax6q-build/
+Exception information:
+Traceback (most recent call last):
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/commands/install.py", line 342, in run
+    prefix=options.prefix_path,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_set.py", line 784, in install
+    **kwargs
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_install.py", line 878, in install
+    spinner=spinner,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/utils/__init__.py", line 707, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+pip.exceptions.InstallationError: Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xqpsax6q-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-0xpll0l5-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmp2hhgogft" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xqpsax6q-build/
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-hvzl6thr-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-hvzl6thr-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-hvzl6thr-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-hvzl6thr-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-hvzl6thr-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u6_vdq2z-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmpdx0bhy2_
+    running install
+    error: must supply either home or prefix/exec-prefix -- not both
+Cleaning up...
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-hvzl6thr-build
+Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-hvzl6thr-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u6_vdq2z-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmpdx0bhy2_" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-hvzl6thr-build/
+Exception information:
+Traceback (most recent call last):
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/commands/install.py", line 342, in run
+    prefix=options.prefix_path,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_set.py", line 784, in install
+    **kwargs
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_install.py", line 878, in install
+    spinner=spinner,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/utils/__init__.py", line 707, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+pip.exceptions.InstallationError: Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-hvzl6thr-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u6_vdq2z-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmpdx0bhy2_" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-hvzl6thr-build/
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1r0pq0bh-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1r0pq0bh-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1r0pq0bh-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1r0pq0bh-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1r0pq0bh-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-7ux5ggci-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmpnlwj8ooa
+    running install
+    error: must supply either home or prefix/exec-prefix -- not both
+Cleaning up...
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1r0pq0bh-build
+Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1r0pq0bh-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-7ux5ggci-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmpnlwj8ooa" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1r0pq0bh-build/
+Exception information:
+Traceback (most recent call last):
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/commands/install.py", line 342, in run
+    prefix=options.prefix_path,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_set.py", line 784, in install
+    **kwargs
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_install.py", line 878, in install
+    spinner=spinner,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/utils/__init__.py", line 707, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+pip.exceptions.InstallationError: Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1r0pq0bh-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-7ux5ggci-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmpnlwj8ooa" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1r0pq0bh-build/
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-bppjhba5-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-bppjhba5-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-bppjhba5-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-bppjhba5-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-bppjhba5-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-w65dsd1g-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmpzi3mqcxz
+    running install
+    error: must supply either home or prefix/exec-prefix -- not both
+Cleaning up...
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-bppjhba5-build
+Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-bppjhba5-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-w65dsd1g-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmpzi3mqcxz" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-bppjhba5-build/
+Exception information:
+Traceback (most recent call last):
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/commands/install.py", line 342, in run
+    prefix=options.prefix_path,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_set.py", line 784, in install
+    **kwargs
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_install.py", line 878, in install
+    spinner=spinner,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/utils/__init__.py", line 707, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+pip.exceptions.InstallationError: Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-bppjhba5-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-w65dsd1g-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmpzi3mqcxz" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-bppjhba5-build/
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-9upz4fig-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-9upz4fig-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-9upz4fig-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-9upz4fig-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-9upz4fig-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-t3u28yh1-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmp1vh2nkvi
+    running install
+    error: must supply either home or prefix/exec-prefix -- not both
+Cleaning up...
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-9upz4fig-build
+Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-9upz4fig-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-t3u28yh1-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmp1vh2nkvi" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-9upz4fig-build/
+Exception information:
+Traceback (most recent call last):
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/commands/install.py", line 342, in run
+    prefix=options.prefix_path,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_set.py", line 784, in install
+    **kwargs
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_install.py", line 878, in install
+    spinner=spinner,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/utils/__init__.py", line 707, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+pip.exceptions.InstallationError: Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-9upz4fig-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-t3u28yh1-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmp1vh2nkvi" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-9upz4fig-build/
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flk22ssc-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flk22ssc-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flk22ssc-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flk22ssc-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flk22ssc-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-5g0sz2y9-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmpzy1cok24
+    running install
+    error: must supply either home or prefix/exec-prefix -- not both
+Cleaning up...
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flk22ssc-build
+Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flk22ssc-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-5g0sz2y9-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmpzy1cok24" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flk22ssc-build/
+Exception information:
+Traceback (most recent call last):
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/commands/install.py", line 342, in run
+    prefix=options.prefix_path,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_set.py", line 784, in install
+    **kwargs
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_install.py", line 878, in install
+    spinner=spinner,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/utils/__init__.py", line 707, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+pip.exceptions.InstallationError: Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flk22ssc-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-5g0sz2y9-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmpzy1cok24" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flk22ssc-build/
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-l5w412v_-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-l5w412v_-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-l5w412v_-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-l5w412v_-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-l5w412v_-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-owh7gwb9-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-owh7gwb9-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-l5w412v_-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-4tuolo97-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-4tuolo97-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-4tuolo97-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-4tuolo97-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-4tuolo97-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-vvl9a95i-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-vvl9a95i-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-4tuolo97-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-91nynqna-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-91nynqna-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-91nynqna-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-91nynqna-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-91nynqna-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-ya5_48tl-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-ya5_48tl-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-91nynqna-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u7ksour8-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u7ksour8-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u7ksour8-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u7ksour8-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u7ksour8-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-f6aow9tj-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-f6aow9tj-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u7ksour8-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-6d420atx-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-6d420atx-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-6d420atx-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-6d420atx-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-6d420atx-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u4x9_vx0-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u4x9_vx0-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-6d420atx-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xbxz9e11-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xbxz9e11-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xbxz9e11-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xbxz9e11-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xbxz9e11-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-cyp8vljr-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-cyp8vljr-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-xbxz9e11-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-doziixjj-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-doziixjj-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-doziixjj-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-doziixjj-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-doziixjj-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-pvyj7hfn-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-pvyj7hfn-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-doziixjj-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-819dlvn5-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-819dlvn5-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-819dlvn5-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-819dlvn5-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-819dlvn5-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-w_rhvn7z-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-w_rhvn7z-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-819dlvn5-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-rxro4wy7-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-rxro4wy7-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-rxro4wy7-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-rxro4wy7-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-rxro4wy7-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-6w4wwq3x-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmp7125hkd9
+    running install
+    error: must supply either home or prefix/exec-prefix -- not both
+Cleaning up...
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-rxro4wy7-build
+Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-rxro4wy7-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-6w4wwq3x-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmp7125hkd9" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-rxro4wy7-build/
+Exception information:
+Traceback (most recent call last):
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/commands/install.py", line 342, in run
+    prefix=options.prefix_path,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_set.py", line 784, in install
+    **kwargs
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/req/req_install.py", line 878, in install
+    spinner=spinner,
+  File "/Users/pcadiot/.brew/lib/python3.6/site-packages/pip/utils/__init__.py", line 707, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+pip.exceptions.InstallationError: Command "/Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-rxro4wy7-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-6w4wwq3x-record/install-record.txt --single-version-externally-managed --compile --home=/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/tmp7125hkd9" failed with error code 1 in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-rxro4wy7-build/
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-77cegkmy-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-77cegkmy-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-77cegkmy-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-77cegkmy-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-77cegkmy-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-87h2e6ix-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-87h2e6ix-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-77cegkmy-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-mpe7e5ze-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-mpe7e5ze-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-mpe7e5ze-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-mpe7e5ze-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-mpe7e5ze-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-o1k2zr8j-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-o1k2zr8j-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-mpe7e5ze-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-oq3yy8cp-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-oq3yy8cp-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-oq3yy8cp-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-oq3yy8cp-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-oq3yy8cp-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-m1eap4s4-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-m1eap4s4-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-oq3yy8cp-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u71q1mxa-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u71q1mxa-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u71q1mxa-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u71q1mxa-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u71q1mxa-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-5vv2udkv-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-5vv2udkv-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-u71q1mxa-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-7fhitw32-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-7fhitw32-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-7fhitw32-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-7fhitw32-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-7fhitw32-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-upjtivwp-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-upjtivwp-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-7fhitw32-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-h0bhhg62-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-h0bhhg62-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-h0bhhg62-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-h0bhhg62-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-h0bhhg62-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-s8427ixi-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-s8427ixi-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-h0bhhg62-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-h7zzcg9a-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-h7zzcg9a-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-h7zzcg9a-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-h7zzcg9a-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-h7zzcg9a-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-by1awbgs-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-by1awbgs-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-h7zzcg9a-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1vmgl9t2-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1vmgl9t2-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1vmgl9t2-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1vmgl9t2-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1vmgl9t2-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-ak5082r7-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-ak5082r7-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-1vmgl9t2-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-8mf2wgh0-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-8mf2wgh0-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-8mf2wgh0-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-8mf2wgh0-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-8mf2wgh0-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-2bi5mn_j-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-2bi5mn_j-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-8mf2wgh0-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-imoeocli-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-imoeocli-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-imoeocli-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-imoeocli-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-imoeocli-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-m0j8fzy1-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-m0j8fzy1-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-imoeocli-build
+Successfully installed path.py-10.3.1
+Cleaning up...
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flf1q93v-build
+  Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flf1q93v-build
+  Running setup.py (path:/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flf1q93v-build/setup.py) egg_info for package from git+https://github.com/jaraco/path.py.git
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/path.py.egg-info
+    writing pip-egg-info/path.py.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/path.py.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/path.py.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/path.py.egg-info/SOURCES.txt'
+  Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flf1q93v-build has version 10.3.1, which satisfies requirement path.py==10.3.1 from git+https://github.com/jaraco/path.py.git
+Installing collected packages: path.py
+  Found existing installation: path.py 10.3.1
+    Uninstalling path.py-10.3.1:
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+      Removing file or directory /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py
+      Successfully uninstalled path.py-10.3.1
+    Running command /Users/pcadiot/.brew/opt/python3/bin/python3.6 -u -c "import setuptools, tokenize;__file__='/private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flf1q93v-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-ira14cmw-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying path.py -> build/lib
+    copying test_path.py -> build/lib
+    running install_lib
+    copying build/lib/path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    copying build/lib/test_path.py -> /Users/pcadiot/.brew/lib/python3.6/site-packages
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py to path.cpython-36.pyc
+    byte-compiling /Users/pcadiot/.brew/lib/python3.6/site-packages/test_path.py to test_path.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    creating path.py.egg-info
+    writing path.py.egg-info/PKG-INFO
+    writing dependency_links to path.py.egg-info/dependency_links.txt
+    writing top-level names to path.py.egg-info/top_level.txt
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'path.py.egg-info/SOURCES.txt'
+    Copying path.py.egg-info to /Users/pcadiot/.brew/lib/python3.6/site-packages/path.py-10.3.1-py3.6.egg-info
+    running install_scripts
+    writing list of installed files to '/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-ira14cmw-record/install-record.txt'
+  Removing source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0002kxh000mqc/T/pip-flf1q93v-build
+Successfully installed path.py-10.3.1
+Cleaning up...

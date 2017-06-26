@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+Ex01 : Django, framework web.
+{% endblock %}
+
+{% block content %}
+          <section class="entry-content ">
+              <p>Les frameworks Web rendent ceux qui les maitrisent très productifs, mais pour débuter, quelle galère ! On a envie de retourner à ses vieux scripts tout pourris mais bien plus facile à comprendre. Et c&#8217;est normal, on est pas la pour se toucher devant la qualité du code, mais pour obtenir un truc qu marche (dédicace à Max).</p>
+			<p>Voici une explication du fonctionnement global de <a href="https://www.djangoproject.com/">Django</a>. Comme ça la prochaine fois que vous lisez un tuto Django et qu&#8217;on demande d&#8217;insérer un blougou à sens giratoire inversé dans le convecteur temporel, vous ne saurez toujours pas de quoi on parle, mais vous saurez où ça se trouve.</p>
+			<h2>Le protocole HTTP</h2>
+			<p>Pour comprendre ce que fait Django, il faut piger le fonctionnement du Web. Si vous savez ce qu&#8217;est une requête POST et que la notion de headers et de cookies ne vous parait pas complètement glucose, vous pouvez sauter cette partie. Les autres, n&#8217;ayez pas honte, il y a des centaines de dev Web là dehors ne savent pas comment ça marche.</p>
+			<p>En résumé, se balader sur le Web, c&#8217;est comme aller au resto. On est un client, on demande quelque chose au serveur, le serveur va voir en cuisine, et revient avec la bouffe, ou une explication sur l&#8217;absence de la bouffe (mais jamais pourquoi la bouffe est dégueulasse, allez comprendre):</p>
+			<div id="attachment_965" style="width: 533px" class="wp-caption aligncenter"><a href="http://sametmax.com/wp-content/uploads/2012/06/http.png" class="grouped_elements" rel="tc-fancybox-group964"><img class=" wp-image-965 " title="Le protocole HTTP, en gros" src="http://sametmax.com/wp-content/uploads/2012/06/http.png" alt="Schéma du protocole HTTP, en gros" width="523" height="666" /></a><p class="wp-caption-text">Le protocole HTTP, en (très) gros</p></div>
+			<p>Ce cycle requête/réponse se déroule des centaines de fois quand on parcours un site Web. Chaque lien cliqué déclenche une requête GET, et la page suivante ne s&#8217;affiche que parcequ&#8217;on a reçu la réponse contenant le HTML de celle-ci. Les formulaires, les requêtes AJAX, la mise à jour de vos Tweets sur votre téléphone, tout ça fonctionne sur le même principe.</p>
+			<h2>Django dans tout ce merdier</h2>
+			<p>Django est un framework Web, le serveur lui fait passer chaque requête GET, POST (ou autres) envoyée par les clients. Django, lui, génère un contenu pour chacune d&#8217;elle (souvent du HTML), et le refile au serveur qui renvoit la réponse au client. En détail, ça donne ça:</p>
+			<div id="attachment_966" style="width: 457px" class="wp-caption aligncenter"><a href="http://sametmax.com/wp-content/uploads/2012/06/django.png" class="grouped_elements" rel="tc-fancybox-group964"><img class=" wp-image-966  " title="Le cycle de vie d'une requête traitée par Django" src="http://sametmax.com/wp-content/uploads/2012/06/django.png" alt="Schéma du cycle de vie d'une requête traitée par Django" width="447" height="633" /></a><p class="wp-caption-text">Le cycle de vie d&#39;une requête traitée par Django</p></div>
+			<p>Django ce n&#8217;est que ça. Il n&#8217;y a rien de mystérieux: la requête arrive, on prend un template, on dit à Django de mettre des données récupérées depuis la base de données dans le template, on génére du HTML, on retourne la réponse. Le reste (le gros reste), ce sont juste des outils pour automatiser toutes les variantes de ce cycle: formulaire, flux RSS, gestion de droits, etc. Mais tout tourne TOUJOURS autour de la logique requête/réponse car le but est de faire du Web, et que le Web marche comme cela.</p>
+			<h2>Vocabulaire</h2>
+			<p>La difficulté de Django vient aussi du vocabulaire car on utilise des mots compliqués pour désigner des trucs simples.</p>
+			<p><strong>Urlresolvers</strong>: la partie de Django qui reçoit la requête, la compare à une route dans <em>urls.py</em>, et appelle la bonne vue de <em>views.py</em><br />
+			<strong>Template processor</strong>: la partie de Django qui permet de récupérer un template par son nom, de lui passer des données, et de récupérer du HTML sans se fouler. On l&#8217;utilise rarement directement, généralement on passe plutôt par une fonction raccourcie comme <em>render()</em>.<br />
+			<strong>Template Context</strong>: un simple dictionnaire dont les clés sont les noms des variables qu&#8217;on veut rendre disponibles dans un template, et les valeurs sont les valeurs de ces variables. On créé ce dictionnaire dans un vue, et on le passe au template processor pour obtenir du HTML à partir d&#8217;un template.<br />
+			<strong>Tags et filters</strong>: des fonctions Python castrées pour pouvoir être utilisées dans un template (puisque le template est là pour limiter l&#8217;usage de fonctions dans le HTML)</p>
+			<p>Vous avez dû noter des asterisques sur le schéma de fonctionnement de Django. Ce sont les endroits où agissent deux parties de Django particulièrement mal comprises:</p>
+			<p><strong>* Middleware</strong>: un nom pompeux pour dire &#8220;<em>Une classe Python normale avec une methode appelée à chaque requête, et une méthode appelée à chaque réponse</em>.&#8221; En gros, c&#8217;est votre moyen d&#8217;appliquer un traitement à toutes les requêtes ou les réponses. Par exemple si vous voulez rediriger tous les mobiles vers une version mobile d&#8217;un site, vous faite une classe dont une méthode vérifie le contenu de chaque requête, regarde si le Header &#8220;User-Agent&#8221; est un mobile, et court-circuite la réponse pour rediriger immédiatement. Il suffit de déclarer cette classe comme middleware dans le fichier <em>settings.py</em> et ça marche tout seul.<br />
+			<strong>** Context processor</strong>: un nom pompeux pour dire &#8220;<em>Une fonction Python normale qui accepte un Template Context (un simple dictionaire) en entrée, et qui le retourne modifié.</em>&#8221; On l&#8217;utilise quand on veut qu&#8217;une valeur soit disponible dans tous les templates, par exemple en rajoutant la date du jour dans le Template Context.</p>
+			<p>C&#8217;est tout. Vraiment, c&#8217;est tout. Le reste c&#8217;est du bonus. Django c&#8217;est juste ça.</p>
+
+</section>
+{% endblock %}

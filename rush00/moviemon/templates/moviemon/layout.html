@@ -1,0 +1,54 @@
+{% load staticfiles %}
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="{% static 'css/gameboy.css' %}">
+    </head>
+
+    <body>
+
+        <div class="gb">
+            <div class="gb-container">
+                <div class="gb-content">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+            </div>
+
+            <div class="gb-block-control">
+                <div class="gb-block-cross">
+                    <table>
+                        <tr>
+                            <td></td>
+                            <td class="button" id="up"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="button" id="left"></td>
+                            <td></td>
+                            <td class="button" id="right"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="button" id="down"></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="gb-block-select">
+                    <p>select</p>
+                    <p>start</p>
+                </div>
+
+                <div class="gb-block-choice">
+                    <p>B</p>
+                    <p>A</p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
